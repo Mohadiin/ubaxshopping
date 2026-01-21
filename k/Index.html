@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UbaxService - Adeegga Carwooyinka iyo Qurxinta</title>
+    <meta name="description" content="UbaxService waxay bixisaa adeegyo carwo, qurxin iyo iibka agabka casriga ah ee Soomaaliya.">
+    <link rel="stylesheet" href="index.css"> <!-- CSS-ka dib loo wacayo -->
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header-section">
+    <div class="container header-flex">
+
+        <div class="logo">
+            <!-- Logo sawirka ah -->
+            <img src="ubax logo.png" alt="UbaxService Logo" id="siteLogo">
+        </div>
+
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#products">Service</a>
+            <a href="#contact">Contact</a>
+            <a href="#products" class="btn-quote">Get Started</a>
+        </nav>
+
+        <!-- CART BUTTON -->
+        <div class="cart-area">
+            <button class="cart-btn" id="cartBtn">
+                🛒 Cart (<span id="cartCount">0</span>)
+            </button>
+        </div>
+
+    </div>
+</header>
+
+<!-- CART BOX -->
+<div class="cart-box" id="cartBox">
+    <h3>Cart-kaaga</h3>
+    <ul id="cartItems"></ul>
+    <p><strong>Total:</strong> $<span id="cartTotal">0</span></p>
+    <button id="whatsappBtn" class="btn-buy">
+        Dalbo WhatsApp
+    </button>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h2>Ku soo dhowow UbaxService</h2>
+        <p>Waxaan bixinaa adeegyo casri ah oo tayo leh sanadka 2026.</p>
+        
+        <div class="hero-btns">
+            <a href="#products" class="btn-primary">Adeegyada</a>
+            <a href="#contact" class="btn-secondary">Nagala soo xiriir</a>
+        </div>
+    </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="product-section" id="products">
+    <div class="container">
+        <h2 class="section-title">Alaabta aan Iibinno</h2>
+
+        <div class="product-grid">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="s.jfif" alt="Ubax Qurxin ah">
+                </div>
+                <h3>Ubax Qurxin ah</h3>
+                <p class="price">$25.00</p>
+                <button class="btn-buy" data-name="Ubax Qurxin ah" data-price="25">
+                    Ku dar Cart
+                </button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="sa.jfif" alt="Agabka Carwooyinka">
+                </div>
+                <h3>Agabka Carwooyinka</h3>
+                <p class="price">$45.00</p>
+                <button class="btn-buy" data-name="Agabka Carwooyinka" data-price="45">
+                    Ku dar Cart
+                </button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+    <div class="container">
+        <h2>Nagala Soo Xiriir</h2>
+        <p>📞 +252 619788378</p>
+        <p>📧 info@ubaxservice.com</p>
+        <p>📍 Baidoa, Somalia</p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container footer-content">
+        <div class="footer-info">
+            <h3>Ubax<span>Service</span></h3>
+            <p>Waxaan halkaan u joognaa inaan noloshaada iyo ganacsigaaga qurxinno.</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 UbaxService. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="index.js"></script>
+
+</body>
+</html>
